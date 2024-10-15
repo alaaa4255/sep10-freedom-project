@@ -7,7 +7,7 @@
 
 #### Engineering design process 
 
-<p> As if right now with the engineering desgin proccess, my main priority is that with this project I could help **bring and provide more attention and knowledge to the astonishing facts about the great impacts technolgy has had on businessess over the years** since people don't seem to notice much. My next step is too google and look more into my priority. Not only that, but I will go ahaed and ask around about what people know and think about this topic. </p>
+<p> As if right now with the engineering desgin proccess, my main priority is that with this project I could help ####bring and provide more attention and knowledge to the astonishing facts about the great impacts technolgy has had on businessess over the years#### since people don't seem to notice much. My next step is too google and look more into my priority. Not only that, but I will go ahaed and ask around about what people know and think about this topic. </p>
 
 #### Skills
 
