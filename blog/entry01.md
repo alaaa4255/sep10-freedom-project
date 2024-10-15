@@ -15,7 +15,7 @@
 
 #### Googling techniques
 
-<p> When I first started to google for information about my topic, I found myselef staring at a bunch of websites. Just by seeing that, I didn't know which one to click on that will give me the information I needed. So, to make it easier on myself, I picked the one with the headline that attracted my attention the most. For example, one of the couple of articles that spiked my interest was <a href="https://www.yittbox.com/blog-detail/8-benefits-of-technology-in-business"> "Benefits of technolgy in bussiness"</a> by Yittbox. At the specific moment I felt the urge to click on it because just based off the headline "Benefits of technology in bussiness" I knew that it was what I should be reading to help me learn more.  </p>
+<p> When I first started to google for information about my topic, I found myselef staring at a bunch of websites. Just by seeing that, I didn't know which one to click on that will give me the information I needed. So, to make it easier on myself, I picked the one with the headline that attracted my attention the most. For example, one of the couple of articles that spiked my interest was <a href="https://www.yittbox.com/blog-detail/8-benefits-of-technology-in-business"> "Benefits of technolgy in bussiness"</a> by Yittbox. At that specific moment I felt the urge to click on it because just based off the headline "Benefits of technology in bussiness" I knew that it was what I should be reading to help me learn more.  </p>
 
 #### Writing techniques
 
