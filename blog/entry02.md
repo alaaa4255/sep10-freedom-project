@@ -19,6 +19,9 @@
 ## Looking for important information: 
 <p> To help me get the imprtant information I needed, I always looked at the headings in the article. If the headings were titled what I needed to see, I would read the text. I would also always look at any pictures that are attached next to the text because they were always a giveaway on what the article would be about. This helped me pick and choose what I thought I needed to know </p>
 
+## Summary:
+<p> Overall, I am set into taking the next step regarding my topic and upcoming wesbite. I plan to organize everything i learned and continue on in the journey of gathering all the information i need.</p>
+
 
 
 
