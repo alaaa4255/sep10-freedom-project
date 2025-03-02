@@ -19,6 +19,4 @@
 ### Summary:
 <p>In conclusion, I have found a tool I am commited to using despite finding touble in how to use it at first. I looked at many tutorials and examples and that helped deepen my understanding even more. So now that I chose a tool for the project, I am ready too use it and do many things with it. </p>
 
-[Previous](entry03.md) | [Next](entry05.md)
 
-[Home](../README.md)
