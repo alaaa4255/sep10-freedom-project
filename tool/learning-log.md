@@ -69,8 +69,11 @@ Other websites I used was:
                   </body>
                  </html>
 
-That is my process so far. 
+That is my process so far.
 
+### 03/17/2025
+
+This time I visted youtube videos instead of websites to learn about my tool. The youtube videos I watched 
 
 <!--
 * Links you used today (websites, videos, etc)
