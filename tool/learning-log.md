@@ -150,7 +150,16 @@ https://www.youtube.com/watch?v=FnX7f-uvG2I
 
 ### 03/24/2025
 
-
+<a-scene>
+<title> A Purple Chair </title>
+<a-entity geometry="primitive: box; width: 2; height: 0.2; depth: 2" material="color: purple" position="0 1 -5">
+<a-entity geometry="primitive: box; width: 2; height: 2; depth: 0.2" material="color: purple" position="0 2.1">
+<a-entity geometry="primitve: box; width: 0.2; height: 1; depth: 0.2" materials="color: purple" position="-0.9 0">
+<a-entity geometry="primitive: box; width: 0.2; height: 1; depth: 0.2" materials="color: purple" position= "0.9 0">
+<a-entity geometry="primitve: box; width: 0.2; height: 1; depth: 0.2" materials="color: purple" position= "0.9 0">
+<a-entity geometry= "primitve: box; width: 0.2; height: 1; depth: 0.2" materials= "color; Purple" position= "0.9 0">
+</a-entity>
+</a-scene>
 
 <!--
 * Links you used today (websites, videos, etc)
