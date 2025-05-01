@@ -1,4 +1,4 @@
-# Entry 5
+ # Entry 5
 ##### 4/11/2025
 ### Sep10
 
@@ -7,7 +7,7 @@
 
 ### Engineering design proccess
 <p>So, when it came to learning the codes of A-Frame, I had to also learn a little bit of geometry. This was because, most of the things I built, used a lot of content from geometry, For example things like, Box, Sphere, Plane, Cylinder, Cone, Tetrahedron, Torus, Ring, Dodecahedron, Custom models. With the information on geometry, I was able to code the 3d shape a little easier.</p>
-`<a-scene> 
+` <a-scene> 
       <a-entity geometry="primitive: box; width: 2; height: 0.2; depth: 2" material="color: brown" position="0 1 -5"></a-entity>
       <a-entity geometry="primitive: box; width: 2; height: 2; depth: 0.2" material="color: brown" position="0 2.1 -5"></a-entity>
       <a-entity geometry="primitive: box; width: 0.2; height: 1; depth: 0.2" material="color: brown" position="-0.9 0.5 -4.9"></a-entity>
@@ -17,7 +17,7 @@
       <a-entity geometry="primitive: box; width: 0.2; height: 1; depth: 0.2" material="color: brown" position="0.9 0.5 -5.1"></a-entity<>
       <a-camera position="0 2 7" look-controls="enabled: true"></a-camera>
       <a-light type="directional" position="2 4 -3" intensity="1.5"></a-light>
-    </a-scene>`
+    </a-scene> `
     
 
     
