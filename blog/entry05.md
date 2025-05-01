@@ -20,7 +20,7 @@
       <a-camera position="0 2 7" look-controls="enabled: true"></a-camera>
       <a-light type="directional" position="2 4 -3" intensity="1.5"></a-light>
     </a-scene>
-     ```
+     `
     
 
     
