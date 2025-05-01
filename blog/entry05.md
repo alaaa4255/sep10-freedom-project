@@ -9,7 +9,7 @@
 <p>So, when it came to learning the codes of A-Frame, I had to also learn a little bit of geometry. This was because, most of the things I built, used a lot of content from geometry, For example things like, Box, Sphere, Plane, Cylinder, Cone, Tetrahedron, Torus, Ring, Dodecahedron, Custom models. With the information on geometry, I was able to code the 3d shape a little easier. This helped me develop skills for coding A-Frame.</p>
 
 ### Skills that I learned:
-<p> The skills I learned for A-frame were the basic html that is used specifically for A-Frame. That wouldd be ` <a-box> `</p>
+<p> The skills I learned for A-frame were the basic html that is used specifically for A-Frame. That wouldd be; `a-box`</p>
 
 
 
