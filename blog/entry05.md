@@ -11,7 +11,7 @@
 ### Skills that I learned:
 <p> The skills I learned for A-frame were the basic html that is used specifically for A-Frame. That would be; a-box, a-sphere, and a-entity. Then it was postitioning and rotating scale; position="x y z", rotation="x y z" and, scale="x y z". Finally, the 3d coordinate; x = left/right, y = up/down and, z = forward/back. This was all the skills I had developed from just learning about my tool. These skills were really helpful and benefical when it came to starting to code without any guide or help from websites and videos I have been using. With these skills, I coded a couple of simple 3d shapes. One of them being... </p> 
 
-   ``` html
+   `
  <a-scene> 
       <a-entity geometry="primitive: box; width: 2; height: 0.2; depth: 2" material="color: brown" position="0 1 -5"></a-entity>
       <a-entity geometry="primitive: box; width: 2; height: 2; depth: 0.2" material="color: brown" position="0 2.1 -5"></a-entity>
@@ -24,6 +24,8 @@
       <a-light type="directional" position="2 4 -3" intensity="1.5"></a-light>
     </a-scene>
      `
+### Summary: 
+<p>Overall, after the weeks I spent studing my tool, I could say that I finally understand all the components needed to get the exact final product of what I coded. Now that I have all the knowledge of my tool, I could start planning in what ways I will use it to represnt the topic of my freedom project. </p>
 
 
 
