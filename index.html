@@ -23,202 +23,219 @@
   <title>Business Tech Overview</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
-    body {
-      background-color: #f8f9fa;
-      color: #000;
-    }
 
-    .navbar {
-      background-color: #000;
-    }
-
-    .navbar-brand, .nav-link {
-      color: #fff !important;
-    }
-
-    h1, h2 {
-      color: #0d6efd;
-    }
-
-    .section-title {
-      text-align: center;
-      font-size: 2rem;
-      font-weight: bold;
-      margin-top: 20px;
-      margin-bottom: 20px;
-      color: #000;
-    }
-
-    .custom-container {
-      border: 2px solid #ced4da;
-      background-color: #fff;
-      padding: 20px;
-      margin: 10px;
-      border-radius: 8px;
-      height: 100%;
-    }
-
-    .carousel img {
-      width: 100%;
-      height: auto;
-      object-fit: contain;
-    }
-
-    .container-row {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-    }
-
-    .custom-container a {
-      font-weight: bold;
-      display: block;
-      margin-bottom: 10px;
-      color: #0d6efd;
-    }
-
-    ul {
-      padding-left: 20px;
-    }
-
-    @media (max-width: 768px) {
-      .container-row {
-        flex-direction: column;
-        align-items: center;
-      }
-    }
-  </style>
+        body {
+    background-color: #2c2c2c; /* dark grey */
+    color: #ffffff;
+}
+        .navbar {
+            background-color: #343a40;
+        }
+        .navbar-brand, .nav-link {
+            color: white;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #0d6efd;
+            margin-top: 20px;
+        }
+        .section-title {
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+        .container-bordered {
+            border: 2px solid #6c757d;
+            padding: 15px;
+            margin: 10px;
+            background-color: white;
+            color: black;
+            flex: 1;
+        }
+        .hardware-section, .software-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .carousel {
+            margin: 40px auto;
+            width: 90%;
+        }
+        .container-link a {
+            font-weight: bold;
+            text-decoration: none;
+            color: #0d6efd;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .link-title {
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+    </style>
 </head>
 <body>
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg">
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">BusinessTech</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#">Intro</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Hardware</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Software</a></li>
+        <a class="navbar-brand" href="#">Business `25</a>
+    </div>
+</nav>
+
+<!-- Title -->
+<h1 class="mt-3">BUSINESS</h1>
+
+<!-- Introduction Container -->
+<div class="container my-4 d-flex justify-content-center">
+    <div class="container-bordered" style="max-width: 800px;">
+        <h5>INTRODUCTION</h5>
+        <p>
+            In the world there is so many types of business. These business tend to use a variety of different things to run it.
+            These things are both software and hardware. More specifically, Software are the apps and websites these business use.
+            The hardware is the pieces that object they are using is made of.
+        </p>
+    </div>
+</div>
+
+<!-- HARDWARE Section -->
+<h2>HARDWARE</h2>
+<div class="hardware-section">
+
+    <div class="container-bordered">
+        <h6>SERVERS</h6>
+        <ul>
+            <li>Servers are powerful computers designed to handle and process large amounts of data.</li>
+            <li>They host websites, email systems, databases, etc.</li>
+            <li>They provide security and reliability to businesses.</li>
+        </ul>
+    </div>
+
+    <div class="container-bordered">
+        <h6>STORAGE DEVICES</h6>
+        <ul>
+            <li>Helps create backups for data and files.</li>
+            <li>Allows access to information anytime.</li>
+            <li>Backs up any business data securely.</li>
+        </ul>
+    </div>
+
+    <div class="container-bordered">
+        <h6>CARD READERS</h6>
+        <ul>
+            <li>Accepts credit and debit card transactions.</li>
+            <li>Provides high security while documenting transactions.</li>
+            <li>Speeds up customer payments.</li>
+        </ul>
+    </div>
+
+    <div class="container-bordered">
+        <h6>PERIPHERALS</h6>
+        <ul>
+            <li>Scan documents.</li>
+            <li>Print papers.</li>
+            <li>Enhance computer functionality.</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Carousel Section -->
+<div id="hardwareCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner text-center">
+        <div class="carousel-item active">
+            <img src="server-1.png" class="d-block w-100" alt="Server">
+        </div>
+        <div class="carousel-item">
+            <img src="storage-2.png" class="d-block w-100" alt="Storage">
+        </div>
+        <div class="carousel-item">
+            <img src="card-3.png" class="d-block w-100" alt="Card Reader">
+        </div>
+        <div class="carousel-item">
+            <img src="per-4.png" class="d-block w-100" alt="Peripherals">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#hardwareCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#hardwareCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+    </button>
+</div>
+
+<!-- SOFTWARE Section -->
+<h2>SOFTWARE</h2>
+<div class="software-section">
+
+    <div class="container-bordered container-link">
+        <div class="link-title"><a href="https://onpay.com/payroll-services-lp/?channel=forbes&utm_source=forbes&utm_medium=paid&utm_campaign=smb&FRBSADV_adtid=FAPfLUevisaevIkIhfhaqB_xxm2JD5I5fHj" target="_blank">ONPAY</a></div>
+        <ul>
+            <li>Automates employee payments.</li>
+            <li>Handles overseas payments and time tracking.</li>
+            <li>Keeps businesses organized.</li>
+        </ul>
+    </div>
+
+    <div class="container-bordered container-link">
+        <div class="link-title"><a href="https://www.forbes.com/advisor/business/software/best-business-software/#best_hr_management_software_section" target="_blank">MONDAY.COM HR</a></div>
+        <ul>
+            <li>Recruitment, onboarding, time tracking, payroll.</li>
+            <li>Performance evaluation and benefits management.</li>
+            <li>Helps businesses thrive.</li>
+        </ul>
+    </div>
+
+    <div class="container-bordered container-link">
+        <div class="link-title"><a href="https://clickup.com/lp?utm_medium=cpc&utm_source=ps&utm_campaign=ps_cpc_at_nnc_pro_trial_all-devices_cpc_lp_x_all-departments_x_ryanpearce1888&pscd=try.web.clickup.com&ps_partner_key=cnlhbnBlYXJjZTE4ODg&ps_xid=xAyLkVgHLdWWSm&gsxid=xAyLkVgHLdWWSm&gspk=cnlhbnBlYXJjZTE4ODg" target="_blank">CLICKUP</a></div>
+        <ul>
+            <li>Boosts large project productivity.</li>
+            <li>Helps meet deadlines.</li>
+            <li>Ideal for complex projects.</li>
+        </ul>
+    </div>
+
+    <div class="container-bordered container-link">
+        <div class="link-title"><a href="https://www.zoho.com/crm/lp/lasting-customer-relationships.html?utm_source=forbesadvisor&utm_medium=cpl&utm_campaign=zcrm-review-fa" target="_blank">ZOHO.CRM</a></div>
+        <ul>
+            <li>Supports marketing and sales teams.</li>
+            <li>Helps personalize marketing and track leads.</li>
+            <li>Manages customer interactions.</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Bottom Row of Software -->
+<div class="software-section">
+
+    <div class="container-bordered container-link">
+        <div class="link-title"><a href="https://www.zoho.com/us/books/?utm_source=appwiki&utm_medium=cpc&utm_campaign=MVF_NW_Placements&aclid=yFXCS2fkmorfq8Ry7rKt&apid=OWc4WA&asid=NO_SESSION_COOKIE&aref=https%3A%2F%2Fappwiki.nl&atemp=default" target="_blank">ZOHO BOOKS</a></div>
+        <ul>
+            <li>Affordable accounting for small businesses.</li>
+            <li>Manages finances with ease.</li>
+            <li>Great alternative to hiring an accountant.</li>
+        </ul>
+    </div>
+    <div class="col-md-4 col-sm-6 container-bordered container-link">
+        <div class="link-title"><a href="https://www.forbes.com/...">WEEBLY</a></div>
+        <ul>
+          <li>Website builder for businesses.</li>
+          <li>Easy for non-technical users.</li>
+          <li>Helps attract customers and talent.</li>
+        </ul>
+      </div>
+
+      <div class="col-md-4 col-sm-12 container-bordered container-link">
+        <div class="link-title"><a href="https://get.cin7.com/...">CIN7</a></div>
+        <ul>
+          <li>Streamlines warehouse and sales operations.</li>
+          <li>Manages shipments and orders.</li>
+          <li>Great for multi-function workflows.</li>
         </ul>
       </div>
     </div>
-  </nav>
-
-  <!-- Title -->
-  <h1 class="section-title">BUSINESS</h1>
-
-  <!-- Introduction Section -->
-  <div class="container custom-container text-start">
-    <h4>INTRODUCTION</h4>
-    <p>In the world there is so many types of business. These business tend to use a variety of different things to run it. These things are both software and hardware. More specifically, Software are the apps and websites these business use. The hardware is the pieces that object they are using is made of.</p>
   </div>
 
-  <!-- Hardware Section -->
-  <h2 class="section-title">HARDWARE</h2>
 
-  <div class="container-fluid container-row">
-    <!-- Servers -->
-    <div class="col-md-2 custom-container">
-      <h5>SERVERS</h5>
-      <ul>
-        <li>Servers are powerful computers designed to handle and process large amounts of data, manage network resources, and provide services to other computers or devices on a network.</li>
-        <li>Servers are the backbone of hosting websites, email systems, databases, etc.</li>
-        <li>Servers can really help a business with the way it adds security and a reliable source to lean back on.</li>
-      </ul>
-    </div>
-    <!-- Storage Devices -->
-    <div class="col-md-2 custom-container">
-      <h5>STORAGE DEVICES</h5>
-      <ul>
-        <li>Storage devices just help create backups for your data and files.</li>
-        <li>They help you have the ability to access your information anytime.</li>
-        <li>Backs up any type of business data.</li>
-        <li>Secure all business dealings.</li>
-      </ul>
-    </div>
-    <!-- Card Readers -->
-    <div class="col-md-2 custom-container">
-      <h5>CARD READERS</h5>
-      <ul>
-        <li>Card readers is a device that accepts credit and debit cards transactions.</li>
-        <li>Card readers provide high security while documenting customer transactions in case anything happens.</li>
-        <li>Card readers can make the process go way faster since it works smoothly.</li>
-      </ul>
-    </div>
-    <!-- Peripherals -->
-    <div class="col-md-2 custom-container">
-      <h5>PERIPHERALS</h5>
-      <ul>
-        <li>Peripherals help business scan documents.</li>
-        <li>Print out papers.</li>
-        <li>Make presentation.</li>
-        <li>They increase the function of computers.</li>
-      </ul>
-    </div>
-  </div>
-
-  <!-- Carousel -->
-  <div class="container mt-5">
-    <div id="hardwareCarousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active"><img src="server-1.png" class="d-block w-100" alt="Server"></div>
-        <div class="carousel-item"><img src="storage-2.png" class="d-block w-100" alt="Storage"></div>
-        <div class="carousel-item"><img src="card-3.png" class="d-block w-100" alt="Card Reader"></div>
-        <div class="carousel-item"><img src="per-4.png" class="d-block w-100" alt="Peripherals"></div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#hardwareCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#hardwareCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </button>
-    </div>
-  </div>
-
-  <!-- Software Section -->
-  <h2 class="section-title mt-5">SOFTWARE</h2>
-
-  <div class="container-fluid">
-    <!-- First Row -->
-    <div class="container-row">
-      <!-- ONPAY -->
-      <div class="col-md-2 custom-container">
-        <a href="https://onpay.com/payroll-services-lp/?channel=forbes&utm_source=forbes&utm_medium=paid&utm_campaign=smb&FRBSADV_adtid=FAPfLUevisaevIkIhfhaqB_xxm2JD5I5fHj" target="_blank">ONPAY</a>
-        <ul>
-          <li>Onpay helps business owners be able to automate their payments to their employees.</li>
-          <li>This makes it easier for them to be able to pay employees who are also overseas and track time better.</li>
-          <li>This app will also help businesses stay more organized.</li>
-        </ul>
-      </div>
-      <!-- MONDAY.COM HR -->
-      <div class="col-md-2 custom-container">
-        <a href="https://www.forbes.com/advisor/business/software/best-business-software/#best_hr_management_software_section" target="_blank">MONDAY.COM HR</a>
-        <ul>
-          <li>This app/website help business stay organized and on track.</li>
-          <li>It provides recruitment, onboarding, time tracking, payroll, performance evaluation and benefits administration.</li>
-          <li>With helpful tools like those, businesses are able to thrive more.</li>
-        </ul>
-      </div>
-      <!-- CLICKUP -->
-      <div class="col-md-2 custom-container">
-        <a href="https://clickup.com/lp?utm_medium=cpc&utm_source=ps&utm_campaign=ps_cpc_at_nnc_pro_trial_all-devices_cpc_lp_x_all-departments_x_ryanpearce1888&pscd=try.web.clickup.com" target="_blank">CLICKUP</a>
-        <ul>
-          <li>ClickUp helps business to boost up their world in big projects.</li>
-          <li>It also helps employees meet their deadlines.</li>
-          <li>This app does wonders for people who have trouble achieving great projects that can make a difference.</li>
-        </ul>
-      </div>
-      <!-- ZOHO.CRM -->
-      <div class="col-md-2 custom-container">
-        <a href="https://www.zoho.com/crm/lp/lasting-customer-relationships.html" target="_blank">ZOHO.CRM</a>
-        <ul>
-          <li>This app works significantly for business specifically for marketing and sales.</li>
-          <li>It helps with creating personalized marketing and sales performance
 
 
 
