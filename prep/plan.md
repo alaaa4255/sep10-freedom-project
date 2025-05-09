@@ -36,6 +36,9 @@ A-frame details should be done by 5/4/25
 Make it more creative and colorful like adding on to the colors and fonts.
 Add a whole section Only using A-frame to explain my porject a bit more.
 
+Add more images
+
+
 
 
 
