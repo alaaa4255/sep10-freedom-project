@@ -1,253 +1,294 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="style.css" rel="stylesheet" type="text/css" />
-        <style>
-            /* CSS */
-
-        </style>
-
-        <title>Business</title>
-    </head>
-    <body>
-        <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Business Tech Overview</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Business Project</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-        body {
-    background-color: #2c2c2c; /* dark grey */
-    color: #ffffff;
+  <style>
+    body {
+      background-color: #2c2c2c;
+      color: #ffffff;
+      scroll-behavior: smooth;
+    }
+
+    .navbar {
+      background-color: #343a40;
+    }
+
+    .navbar a {
+      color: #fff !important;
+      margin-right: 20px;
+    }
+
+    .hero-section {
+      background: url('img-business.png') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hero-section h1 {
+      color: white;
+      font-size: 5rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 8px black;
+    }
+
+    h2 {
+      color: #0d6efd;
+      text-align: center;
+      margin-top: 60px;
+    }
+
+    .container-bordered {
+      border: 2px solid #6c757d;
+      padding: 15px;
+      margin: 10px;
+      background-color: white;
+      color: black;
+      flex: 1;
+    }
+
+    .hardware-section, .software-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .carousel {
+      margin: 40px auto;
+      max-width: 800px;
+    }
+
+    .carousel-item img {
+      max-height: 400px;
+      object-fit: contain;
+    }
+
+    .container-link a {
+      font-weight: bold;
+      text-decoration: none;
+      color: #0d6efd;
+    }
+
+    .link-title {
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+    }
+    .hero-section {
+  background: url('img-business.png') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-        .navbar {
-            background-color: #343a40;
-        }
-        .navbar-brand, .nav-link {
-            color: white;
-        }
-        h1, h2 {
-            text-align: center;
-            color: #0d6efd;
-            margin-top: 20px;
-        }
-        .section-title {
-            margin-top: 40px;
-            margin-bottom: 20px;
-        }
-        .container-bordered {
-            border: 2px solid #6c757d;
-            padding: 15px;
-            margin: 10px;
-            background-color: white;
-            color: black;
-            flex: 1;
-        }
-        .hardware-section, .software-section {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-        .carousel {
-            margin: 40px auto;
-            width: 90%;
-        }
-        .container-link a {
-            font-weight: bold;
-            text-decoration: none;
-            color: #0d6efd;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        .link-title {
-            margin-bottom: 10px;
-            font-size: 1.2rem;
-        }
-    </style>
+
+  </style>
 </head>
 <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg sticky-top">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">Business `25</a>
+      <a class="navbar-brand" href="#">Business '25</a>
+      <div class="collapse navbar-collapse show">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#intro">Intro</a></li>
+          <li class="nav-item"><a class="nav-link" href="#hardware">Hardware</a></li>
+          <li class="nav-item"><a class="nav-link" href="#images">Images</a></li>
+          <li class="nav-item"><a class="nav-link" href="#software">Software</a></li>
+        </ul>
+      </div>
     </div>
-</nav>
+  </nav>
 
-<!-- Title -->
-<h1 class="mt-3">BUSINESS</h1>
+   <!-- Hero Section -->
+  <section class="hero-section">
+    <h1>BUSINESS</h1>
+  </section>
 
-<!-- Introduction Container -->
-<div class="container my-4 d-flex justify-content-center">
-    <div class="container-bordered" style="max-width: 800px;">
-        <h5>INTRODUCTION</h5>
-        <p>
-            In the world there is so many types of business. These business tend to use a variety of different things to run it.
-            These things are both software and hardware. More specifically, Software are the apps and websites these business use.
-            The hardware is the pieces that object they are using is made of.
-        </p>
+  <!-- Intro Section -->
+  <section id="intro" class="container my-5">
+    <div class="container-bordered mx-auto" style="max-width: 800px;">
+      <h5>INTRODUCTION</h5>
+      <p>
+        In the world, there are many types of businesses. These businesses use various software and hardware to operate efficiently.
+        Software includes apps and websites they rely on, while hardware refers to the physical tools and equipment used in daily operations.
+      </p>
     </div>
-</div>
+  </section>
 
-<!-- HARDWARE Section -->
-<h2>HARDWARE</h2>
-<div class="hardware-section">
+  <!-- Hardware Section -->
+  <section id="hardware">
+    <h2>HARDWARE</h2>
+    <div class="hardware-section">
 
-    <div class="container-bordered">
+      <div class="container-bordered">
         <h6>SERVERS</h6>
         <ul>
-            <li>Servers are powerful computers designed to handle and process large amounts of data.</li>
-            <li>They host websites, email systems, databases, etc.</li>
-            <li>They provide security and reliability to businesses.</li>
+          <li>Powerful computers that handle large amounts of data.</li>
+          <li>Host websites, emails, and databases.</li>
+          <li>Provide security and reliability.</li>
         </ul>
-    </div>
+      </div>
 
-    <div class="container-bordered">
+      <div class="container-bordered">
         <h6>STORAGE DEVICES</h6>
         <ul>
-            <li>Helps create backups for data and files.</li>
-            <li>Allows access to information anytime.</li>
-            <li>Backs up any business data securely.</li>
+          <li>Backup data and files securely.</li>
+          <li>Allow access to information anytime.</li>
+          <li>Ensure business continuity.</li>
         </ul>
-    </div>
+      </div>
 
-    <div class="container-bordered">
+      <div class="container-bordered">
         <h6>CARD READERS</h6>
         <ul>
-            <li>Accepts credit and debit card transactions.</li>
-            <li>Provides high security while documenting transactions.</li>
-            <li>Speeds up customer payments.</li>
+          <li>Process credit and debit transactions.</li>
+          <li>Secure and document sales.</li>
+          <li>Speed up payment processes.</li>
         </ul>
-    </div>
+      </div>
 
-    <div class="container-bordered">
+      <div class="container-bordered">
         <h6>PERIPHERALS</h6>
         <ul>
-            <li>scan documents.</li>
-            <li>Print papers.</li>
-            <li>Enhance computer functionality.</li>
+          <li>Scanners and printers for documentation.</li>
+          <li>Enhance office functionality.</li>
+          <li>Improve business efficiency.</li>
         </ul>
+      </div>
     </div>
-</div>
+  </section>
 
-<!-- Carousel Section -->
-<div id="hardwareCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner text-center">
+  <!-- Carousel Section -->
+  <section id="images">
+    <h2>HARDWARE IMAGES</h2>
+    <div id="hardwareCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner text-center">
         <div class="carousel-item active">
-            <img src="img-13..png" class="d-block w-100" alt="Server">
+          <img src="img-13.png" class="d-block w-100" alt="Server" />
         </div>
         <div class="carousel-item">
-            <img src="img-12.png" class="d-block w-100" alt="Storage">
+          <img src="img-12.png" class="d-block w-100" alt="Storage" />
         </div>
         <div class="carousel-item">
-            <img src="img-10.png" class="d-block w-100" alt="Card Reader">
+          <img src="img-10.png" class="d-block w-100" alt="Card Reader" />
         </div>
         <div class="carousel-item">
-            <img src="img-11.png" class="d-block w-100" alt="Peripherals">
+          <img src="img-11.png" class="d-block w-100" alt="Peripherals" />
         </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#hardwareCarousel" data-bs-slide="prev">
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#hardwareCarousel" data-bs-slide="prev">
         <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#hardwareCarousel" data-bs-slide="next">
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#hardwareCarousel" data-bs-slide="next">
         <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
-    </button>
-</div>
-  </div>
-</div>
-
-<!-- SOFTWARE Section -->
-<h2>SOFTWARE</h2>
-<div class="software-section">
-
-    <div class="container-bordered container-link">
-        <div class="link-title"><a href="https://onpay.com/payroll-services-lp/?channel=forbes&utm_source=forbes&utm_medium=paid&utm_campaign=smb&FRBSADV_adtid=FAPfLUevisaevIkIhfhaqB_xxm2JD5I5fHj" target="_blank">ONPAY</a></div>
-        <ul>
-            <li>Automates employee payments.</li>
-            <li>Handles overseas payments and time tracking.</li>
-            <li>keeps business organized.</li>
-        </ul>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
+  </section>
 
-    <div class="container-bordered container-link">
-        <div class="link-title"><a href="https://www.forbes.com/advisor/business/software/best-business-software/#best_hr_management_software_section" target="_blank">MONDAY.COM HR</a></div>
-        <ul>
-            <li>Recruitment, onboarding, time tracking, payroll.</li>
-            <li>Performance evaluation and benefits management.</li>
-            <li>Helps businesses thrive.</li>
-        </ul>
-    </div>
+  <!-- Software Section -->
+  <section id="software">
+    <h2>SOFTWARE</h2>
+    <div class="software-section">
 
-    <div class="container-bordered container-link">
-        <div class="link-title"><a href="https://clickup.com/lp?utm_medium=cpc&utm_source=ps&utm_campaign=ps_cpc_at_nnc_pro_trial_all-devices_cpc_lp_x_all-departments_x_ryanpearce1888&pscd=try.web.clickup.com&ps_partner_key=cnlhbnBlYXJjZTE4ODg&ps_xid=xAyLkVgHLdWWSm&gsxid=xAyLkVgHLdWWSm&gspk=cnlhbnBlYXJjZTE4ODg" target="_blank">CLICKUP</a></div>
+      <div class="container-bordered container-link">
+        <div class="link-title"><a href="https://onpay.com" target="_blank">ONPAY</a></div>
         <ul>
-            <li>Boosts large project productivity.</li>
-            <li>Helps meet deadlines.</li>
-            <li>Ideal for complex projects.</li>
-        </ul>
-    </div>
-
-    <div class="container-bordered container-link">
-        <div class="link-title"><a href="https://www.zoho.com/crm/lp/lasting-customer-relationships.html?utm_source=forbesadvisor&utm_medium=cpl&utm_campaign=zcrm-review-fa" target="_blank">ZOHO.CRM</a></div>
-        <ul>
-            <li>Supports marketing and sales teams.</li>
-            <li>Helps personalize marketing and track leads.</li>
-            <li>Manages customer interactions.</li>
-        </ul>
-    </div>
-</div>
-
-<!-- Bottom Row of Software -->
-<div class="software-section">
-
-    <div class="container-bordered container-link">
-        <div class="link-title"><a href="https://www.zoho.com/us/books/?utm_source=appwiki&utm_medium=cpc&utm_campaign=MVF_NW_Placements&aclid=yFXCS2fkmorfq8Ry7rKt&apid=OWc4WA&asid=NO_SESSION_COOKIE&aref=https%3A%2F%2Fappwiki.nl&atemp=default" target="_blank">ZOHO BOOKS</a></div>
-        <ul>
-            <li>Affordable accounting for small businesses.</li>
-            <li>Manages finances with ease.</li>
-            <li>Great alternative to hiring an accountant.</li>
-        </ul>
-    </div>
-    <div class="col-md-4 col-sm-6 container-bordered container-link">
-        <div class="link-title"><a href="https://www.forbes.com/...">WEEBLY</a></div>
-        <ul>
-          <li>Website builder for businesses.</li>
-          <li>Easy for non-technical users.</li>
-          <li>Helps attract customers and talent.</li>
+          <li>Automates employee payroll and taxes.</li>
+          <li>Handles global payments and time tracking.</li>
+          <li>Keeps finances organized.</li>
         </ul>
       </div>
 
-      <div class="col-md-4 col-sm-12 container-bordered container-link">
-        <div class="link-title"><a href="https://get.cin7.com/...">CIN7</a></div>
+      <div class="container-bordered container-link">
+        <div class="link-title"><a href="https://monday.com" target="_blank">MONDAY.COM HR</a></div>
         <ul>
-          <li>Streamlines warehouse and sales operations.</li>
-          <li>Manages shipments and orders.</li>
-          <li>Great for multi-function workflows.</li>
+          <li>Manages hiring, time tracking, and payroll.</li>
+          <li>Streamlines onboarding and reviews.</li>
+          <li>Supports HR automation.</li>
+        </ul>
+      </div>
+
+      <div class="container-bordered container-link">
+        <div class="link-title"><a href="https://clickup.com" target="_blank">CLICKUP</a></div>
+        <ul>
+          <li>Helps manage large projects efficiently.</li>
+          <li>Improves team productivity and deadlines.</li>
+          <li>Works for complex workflows.</li>
+        </ul>
+      </div>
+
+      <div class="container-bordered container-link">
+        <div class="link-title"><a href="https://zoho.com/crm" target="_blank">ZOHO.CRM</a></div>
+        <ul>
+          <li>Personalizes marketing efforts.</li>
+          <li>Tracks customer leads and engagement.</li>
+          <li>Improves customer relationship management.</li>
         </ul>
       </div>
     </div>
-  </div>
+  </section>
+
+  <!-- Bottom Row of Software -->
+<div class="software-section">
+
+
+   <div class="container-bordered container-link">
+       <div class="link-title"><a href="https://www.zoho.com/us/books/?utm_source=appwiki&utm_medium=cpc&utm_campaign=MVF_NW_Placements&aclid=yFXCS2fkmorfq8Ry7rKt&apid=OWc4WA&asid=NO_SESSION_COOKIE&aref=https%3A%2F%2Fappwiki.nl&atemp=default" target="_blank">ZOHO BOOKS</a></div>
+       <ul>
+           <li>Affordable accounting for small businesses.</li>
+           <li>Manages finances with ease.</li>
+           <li>Great alternative to hiring an accountant.</li>
+       </ul>
+   </div>
+   <div class="col-md-4 col-sm-6 container-bordered container-link">
+       <div class="link-title"><a href="https://www.forbes.com/...">WEEBLY</a></div>
+       <ul>
+         <li>Website builder for businesses.</li>
+         <li>Easy for non-technical users.</li>
+         <li>Helps attract customers and talent.</li>
+       </ul>
+     </div>
+
+
+     <div class="col-md-4 col-sm-12 container-bordered container-link">
+       <div class="link-title"><a href="https://get.cin7.com/...">CIN7</a></div>
+       <ul>
+         <li>Streamlines warehouse and sales operations.</li>
+         <li>Manages shipments and orders.</li>
+         <li>Great for multi-function workflows.</li>
+       </ul>
+     </div>
+   </div>
+ </div>
 
 
 
 
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+       <!-- <script src="script.js"></script> -->
+       <script>
+           // JS
 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- <script src="script.js"></script> -->
-        <script>
-            // JS
 
 
-        </script>
-    </body>
+       </script>
+   </body>
+</html>
+
+
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
 </html>
