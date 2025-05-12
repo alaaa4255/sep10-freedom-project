@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Office Desk and Chair</title>
+  <script src="https://alaaa4255.github.io/business-3d-scene"></script>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+
+    /* Additional styling for body */
+    .container {
+      background-color: #f0f0f0;
+      height: 100vh;
+    }
+  </style>
+</head>
+<body>
+
+  <a-scene>
+    <!-- Office Environment -->
+    <a-sky color="#ffffff"></a-sky> <!-- White background -->
+
+    <!-- Floor -->
+    <a-plane rotation="-90 0 0" width="50" height="50" color="#0099FF" position="0 0 0"></a-plane> <!-- Floor -->
+
+    <!-- Desk -->
+    <a-box position="0 1 -5" width="8" height="0.2" depth="4" color="#0044CC"></a-box> <!-- Desk Top -->
+    <a-box position="0 0.5 -5" width="0.2" height="1" depth="4" color="#0044CC"></a-box> <!-- Left Leg -->
+    <a-box position="4 0.5 -5" width="0.2" height="1" depth="4" color="#0044CC"></a-box> <!-- Right Leg -->
+    <a-box position="0 0.5 -1" width="8" height="0.2" depth="0.2" color="#0044CC"></a-box> <!-- Back Leg -->
+    <a-box position="0 0.5 -9" width="8" height="0.2" depth="0.2" color="#0044CC"></a-box> <!-- Front Leg -->
+
+    <!-- Chair -->
+    <a-box position="-3 0.5 -5" width="1.2" height="0.2" depth="1.2" color="#99CCFF"></a-box> <!-- Seat -->
+    <a-box position="-3 1.5 -5" width="0.2" height="2" depth="1.2" color="#99CCFF"></a-box> <!-- Back Rest -->
+    <a-box position="-3.6 0.2 -4.4" width="0.2" height="1.2" depth="0.2" color="#99CCFF"></a-box> <!-- Left Leg -->
+    <a-box position="-2.4 0.2 -4.4" width="0.2" height="1.2" depth="0.2" color="#99CCFF"></a-box> <!-- Right Leg -->
+    <a-box position="-3 0.2 -5.6" width="1.2" height="0.2" depth="0.2" color="#99CCFF"></a-box> <!-- Front Leg -->
+
+    <!-- Computer Monitor -->
+    <a-box position="0 1.5 -5.5" width="2.5" height="1.5" depth="0.1" color="#000000"></a-box> <!-- Monitor -->
+    <a-box position="0 0.8 -5.5" width="0.2" height="0.6" depth="0.2" color="#333333"></a-box> <!-- Monitor Stand -->
+
+    <!-- Keyboard -->
+    <a-box position="0 0.5 -4.8" width="2.5" height="0.1" depth="0.5" color="#99CCFF"></a-box> <!-- Keyboard -->
+
+    <!-- Mouse -->
+    <a-sphere position="1.3 0.4 -4.5" radius="0.1" color="#99CCFF"></a-sphere> <!-- Mouse -->
+
+    <!-- Camera -->
+    <a-camera position="0 2 10" look-controls="pointerLockEnabled: true"></a-camera>
+  </a-scene>
+
+</body>
+</html>
