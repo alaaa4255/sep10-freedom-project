@@ -1,16 +1,18 @@
 # Presentation Plan
 
 ## Hook
-* 
+*I will start by talking about a couple of different business in our world. Then I will introduce the fact that every business operates on both software ad hardware no matter what.
 
 ## Product
-* 
+*As I start presenting, I will summerize all the software info in one sentence while skimming through the links of the websites listed.
+* For the hardware part, i will do the same thing while showing them the images but then I will also tell them spefically what type of business use the hardwares that I have listed.
+*For the A-frame part i will show them what i built why telling them why i chose a-frame and why i speficlaly designed what i did.
 
 ## Process
-* 
+* I will talk about why i chose my topic to be business and what interested me about it all in one sentence. In the next sentence I will talk about what coding I used (bootstrap, html,css). I will show them the hardest parts and how i overcame that.
 
 ## Conclusion
-* 
+* When I am done, I will reepahrse/highlight the parts i want them to learn from my project. for example, how and why spefic business use the hardwares that i listed. 
 
 <!-- EXAMPLE
 
