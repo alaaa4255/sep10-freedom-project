@@ -1,7 +1,11 @@
-# Entry 6
-##### X/X/XX
+# Entry 6,
+##### 6/14/25
 
-Text
+### Content:
+<p>I have been working on my freedom project for the whole year. From gathering information about the softwares and hardwares that are used regarding my topic to finding a tool to practice/ tinker with to use while coding my website. I first started coding my website by planning how and where I wanted the content to be and look like. So, I did that by putting my ideas on a wirefrime. However, on the wireframe I had to create an outline of how my websites would look on mobile and on a computer. For the <a href=https://docs.google.com/drawings/d/1r4yVXYgeV1wT33aws_0JUshOaGTp32ZOCtafafKZdFI/edit> computer wireframe</a></p> I outlined my wbeiste to have all the containers lined up next to eachother and on top of eachother. For the navbar, I wanted it have a drop down to the softwares sections, Hardwares section, carousel, and Intro section. I wanted the Intro to be right under the navbar, then the hardwares under the intro, the carousel under the hardwares that would show the type of hardwares business use, then wouuld come the softwares that had the links to websites businesses use to operate, finally the external link to show off the tool I used. I had the same plan outlined for my <a href=https://docs.google.com/drawings/d/1XqemlZnF1lULrPYNrcSZyMoe9gIzjgeFQSZUTQ0NN_k/edit> mobile wirefarme </a> expect I had to rejust some of the content around. For the navbar, I made it where if it was put on a smaller screen like a phone, it would have three lines stacked on eachother, when pressed it would show the options of the conent in the webiste that would take them to that specfic section. for the containers, instead of three of them being lined uo against eachother it woild be 2 next to eachother. Everything else stayed the same. After planning that out, I took all my ideas and coded the final project/website. For coding I used, HTML, CSS, and bootstrap. For HTML I used fonts like Ariel, bold, thick letters. Fpr css, I used the color scheme of blue, grey, white, and black. For bootstrap, I used Navbar, carousel, and containers. I started coding in order, navbar, container (Intro), Hardware containers, Carousel, software containers with the links to the webistes in it, then the external link to the design I made using my tool. 
+
+### Challenges:
+<p> I faced many challenges whul</p>
 
 [Previous](entry05.md) | [Next](entry07.md)
 
