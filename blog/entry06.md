@@ -48,6 +48,42 @@
    </div>
 </div>
 ```
+
+### Navbar on mobile:
+<p> When it came to coding the navbar, the main issue was how the navbar when pressed on a specfic section, showed both content when clicked to show a specific one. This issue was mostly because of the links to each section being too close to eachother. So to fix that I had to rejust the codingof the navbar and postiton the links where thry weren't going to continue giving me the same issue over and over again.</p>
+
+``` <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Business '25</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#intro">Intro</a></li>
+          <li class="nav-item"><a class="nav-link" href="#hardware">Hardware</a></li>
+          <li class="nav-item"><a class="nav-link" href="#software">Software</a></li>
+          <li class="nav-item"><a class="nav-link" href="#images">Images</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+```
+### A-Frame:
+<p> My hardest challenge throughout the whole process of desgining my website was coding my A-Frame design. A-Frame was hard because Coordinates and rotations had to be perfect or design wouldn’t be clear or show, the Camera control, moving around sometimes was not active, and it would glitch. So, for the cordinates and rotations I had to make sure that the numbers all added up. I used google to help me. Then came the cameera control. Sometimes, the moving around would glitch or wouldn't be active. SO I fixed that by using the proper a-cameera and a-entity set up. </p>
+
+``` <a-entity id="cameraRig" position="0 1.6 6">
+       <a-camera wasd-controls="enabled: true" look-controls="pointerLockEnabled: true"></a-camera>
+     </a-entity>
+```
+
+### Takeaways: 
+<ul>
+ <Li>Planning before you start coding will make the process go by easier </Li> 
+<Li>>constantly checking on your design while coding will help you keep track to all changes (good or bad) </Li>
+<Li>keep track of how many divs you put </Li>
+</ul>
+
 [Previous](entry05.md) | [Next](entry07.md)
 
 [Home](../README.md)
