@@ -80,7 +80,7 @@
 ### Takeaways: 
 <ul>
  <Li>Planning before you start coding will make the process go by easier </Li> 
-<Li>>constantly checking on your design while coding will help you keep track to all changes (good or bad) </Li>
+<Li>constantly checking on your design while coding will help you keep track to all changes (good or bad) </Li>
 <Li>keep track of how many divs you put </Li>
 </ul>
 
